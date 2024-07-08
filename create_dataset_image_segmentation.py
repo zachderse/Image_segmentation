@@ -26,7 +26,7 @@ class BasicDataset(Dataset):
             raise RuntimeError(f'No input file found in {images_dir}, make sure you put your images there')
      
     
-    #change preprocess depending on how much tranformations you want
+    #change preprocess depending on how much transformations you want
     def img_preprocess(self, image):
 
         image = np.asarray(image)
